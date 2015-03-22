@@ -30,3 +30,6 @@ Line 33 binds both test and training data.
 Lastly, lines 35 to 52 mutates the table with an Activity Description and summarizes the mean for the first 6 columns.
 These data is grouped by the Activity description and the Subject.
 
+The name of the summarized data frame is "final"; this table is exported to a txt file called "final.txt" using the write.table command.
+
+Thank you.
