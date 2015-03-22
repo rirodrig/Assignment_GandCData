@@ -1,13 +1,3 @@
-## CODEBOOK (FOR FINAL.TXT FILE)
-# Column 1 = BodyMeanX: Mean for X
-# Column 2 = BodyMeanY: Mean for Y
-# Column 3 = BodyMeanZ: Mean for Z
-# Column 4 = BodyStDevX: Std. Deviation for X
-# Column 5 = BodyStDevY: Std. Deviation for Y
-# Column 6 = BodyStDevZ : Std. Deviation for Z
-# Column 7 = Subject: Subject Number
-# Column 8 = Activity: Activity Description
-
 README
 # Assignment_GandCData
 Assignment  - Getting and Cleaning Data
@@ -43,3 +33,13 @@ These data is grouped by the Activity description and the Subject.
 The name of the summarized data frame is "final"; this table is exported to a txt file called "final.txt" using the write.table command.
 
 Thank you.
+
+# CODEBOOK (FOR FINAL.TXT FILE)
+# Column 1 = BodyMeanX: Mean for X
+# Column 2 = BodyMeanY: Mean for Y
+# Column 3 = BodyMeanZ: Mean for Z
+# Column 4 = BodyStDevX: Std. Deviation for X
+# Column 5 = BodyStDevY: Std. Deviation for Y
+# Column 6 = BodyStDevZ : Std. Deviation for Z
+# Column 7 = Subject: Subject Number
+# Column 8 = Activity: Activity Description
