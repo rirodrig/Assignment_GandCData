@@ -49,4 +49,4 @@ colnames(summary)[6] <- "BodyStDevZ"
 ## Final Table (Task 5)
 final_temp <- group_by(summary, Activity, Subject) 
 final <- summarize(final_temp, MeanX = mean(BodyMeanX, na.rm= TRUE), MeanY = mean(BodyMeanY, na.rm= TRUE), MeanZ = mean(BodyMeanZ, na.rm= TRUE), MeanStDevX = mean(BodyStDevX, na.rm= TRUE), MeanStDevY = mean(BodyStDevY, na.rm= TRUE), MeanStDevZ = mean(BodyStDevZ, na.rm= TRUE))
-
+write.table(final, "final.txt", row.name=FALSE)
